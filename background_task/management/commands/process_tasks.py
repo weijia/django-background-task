@@ -4,7 +4,9 @@ from optparse import make_option
 import logging
 import sys
 
+
 from background_task.tasks import tasks, autodiscover
+
 
 class Command(BaseCommand):
     LOG_LEVELS = ['CRITICAL', 'ERROR', 'WARNING', 'INFO', 'DEBUG']
